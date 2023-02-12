@@ -1,7 +1,8 @@
 import random
 
-pokemon = ["Aipom" , "Mew" , "Haunter" , "Primeape" , "Sandslash" , "Ekans" , "Alakazam" , "Ninetales" , "Onix" , "Cubone" , "Kabutops" , "Tauros" , "Zapdos"]
-POKEMON_LIST =  ["Aipom" , "Mew" , "Haunter" , "Primeape" , "Sandslash" , "Ekans" , "Alakazam" , "Ninetales" , "Onix" , "Cubone" , "Kabutops" , "Tauros" , "Zapdos"]
+pokemon = ["Aipom" , "Mew" , "Haunter" , "Primeape" , "Sandslash" , "Ekans" , "Alakazam" , "Ninetales" , "Onix" , "Cubone" , "Kabutops" , "Tauros" , "Zapdos","Hitmonlee" , "Rapidash" , "Raichu" , "Pidgeot" , "Butterfree"]
+
+POKEMON_LIST = ["Aipom" , "Mew" , "Haunter" , "Primeape" , "Sandslash" , "Ekans" , "Alakazam" , "Ninetales" , "Onix" , "Cubone" , "Kabutops" , "Tauros" , "Zapdos","Hitmonlee" , "Rapidash" , "Raichu" , "Pidgeot" , "Butterfree"]
 
 pokemon_images = {
     "Aipom":{"reveal":"aipom" , "shadow":"aipom1"} , 
@@ -17,6 +18,11 @@ pokemon_images = {
     "Kabutops" : {"reveal":"kabutops" , "shadow":"kabutops1"},
     "Tauros" : {"reveal":"tauros" , "shadow":"tauros1"},
     "Zapdos" : {"reveal":"zapdos" , "shadow":"zapdos1"},
+    "Hitmonlee" : {"reveal":"hitmonlee" , "shadow":"hitmonlee1"},
+    "Rapidash" : {"reveal":"rapidash" , "shadow":"Rapidash1"},
+    "Raichu" : {"reveal":"raichu" , "shadow":"Raichu1"},
+    "Pidgeot" : {"reveal":"pidgeot" , "shadow":"pidgeot1"},
+    "Butterfree" : {"reveal":"butterfree" , "shadow":"butterfree1"}
 }
 
 pokemon_details = {}
